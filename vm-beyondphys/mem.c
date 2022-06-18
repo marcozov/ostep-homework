@@ -43,6 +43,7 @@ int main(int argc, char *argv[]) {
     int loop_count = 0;
     while (1) {
 	x[i++] += 1; // main work of loop done here.
+	//printf("i: %lld, num_ints: %lld\n", i, num_ints);
 
 	// if we've gone through the whole loop, reset a bunch of stuff
 	// and then (perhaps) print out some statistics. 
